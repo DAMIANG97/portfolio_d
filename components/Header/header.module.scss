@@ -1,0 +1,17 @@
+.header {
+  background-color: rgb(24, 24, 24);
+  width: auto;
+  height: 6.25rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.header__menu {
+  margin-right: 10vh;
+}
+.header__link {
+  font-size: 1.25rem;
+  margin: 1.25rem;
+  color: white;
+  text-decoration: none;
+}

@@ -3,26 +3,18 @@
   height: 70vh;
   background-image: url("../../public/webdev.png");
   background-size: cover;
-}
-.hero-banner--electro-design {
-  width: 100vw;
-  height: 70vh;
-  background-image: url("../../public/electric_design.jpg");
-  background-size: cover;
-}
-.hero-banner--game-dev {
-  width: 100vw;
-  height: 70vh;
-  background-image: url("../../public/gamedev.png");
-  background-size: cover;
-}
-.hero-banner--pixel-art {
-  width: 100vw;
-  height: 70vh;
-  background-image: url("../../public/2.png");
-  background-size: cover;
-}
 
-.hero-banner__greetings {
-  margin: 0;
+  &--electro-design {
+    background-image: url("../../public/electric_design.jpg");
+  }
+  &--game-dev {
+    background-image: url("../../public/gamedev.png");
+  }
+  &--pixel-art {
+    background-image: url("../../public/2.png");
+  }
+
+  &__greetings {
+    margin: 0;
+  }
 }

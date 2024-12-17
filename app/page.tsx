@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import HeroBanner from "@/components/HeroBanner/heroBanner";
-import Header from "../components/Header/header";
+import HeroBanner from "../components/HeroBanner/index";
+import Header from "../components/Header/index";
+import Footer from "../components/Footer/index";
 
 export default function Home() {
   const [activeCareer, setActiveCareer] = useState("Web Development");
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Header setActiveCareer={setActiveCareer} />
       <HeroBanner activeCareer={activeCareer} />
+      <Footer></Footer>
       <h1>Aktualna Kariera: {activeCareer}</h1>
     </div>
   );

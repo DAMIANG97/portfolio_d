@@ -3,6 +3,11 @@
   width: auto;
   height: 6.25rem;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
+
+  &__download {
+    color: white;
+    margin: 0.5rem;
+  }
 }

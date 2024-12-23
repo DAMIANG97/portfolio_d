@@ -1,17 +1,17 @@
 .hero-banner {
   width: 100vw;
   height: 70vh;
-  background-image: url("../../public/webdev.png");
+  background-image: url("../../public/hero/webdev.png");
   background-size: cover;
 
   &--electro-design {
-    background-image: url("../../public/electric_design.jpg");
+    background-image: url("../../public/hero/electric_design.jpg");
   }
   &--game-dev {
-    background-image: url("../../public/gamedev.png");
+    background-image: url("../../public/hero/gamedev.png");
   }
   &--pixel-art {
-    background-image: url("../../public/2.png");
+    background-image: url("../../public/hero/2.png");
   }
 
   &__greetings {

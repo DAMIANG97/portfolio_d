@@ -12,7 +12,6 @@ export default function Home() {
       <Header setActiveCareer={setActiveCareer} />
       <HeroBanner activeCareer={activeCareer} />
       <Footer></Footer>
-      <h1>Aktualna Kariera: {activeCareer}</h1>
     </div>
   );
 }

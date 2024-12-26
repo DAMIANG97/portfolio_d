@@ -12,9 +12,9 @@ interface LinkSectionProps {
 
 const LinkSection: React.FC<LinkSectionProps> = ({ links }) => {
   return (
-    <ul className={styles.linkSection}>
+    <ul className={styles["link-list"]}>
       {links.map((link, index) => (
-        <li key={index}>
+        <li className={styles["link-list__item"]} key={index}>
           <Link href={link.href} download={link.download}>
             {link.children}
           </Link>

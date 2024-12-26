@@ -26,5 +26,6 @@ export const logoLinks = [
     src: "/logo/itchio.svg",
     alt: "itch.io",
     width: 128,
+    height: 32,
   },
 ];

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import LinkSection from "@/components/Molecules/LinkSection";
-import { logoLinks, links } from "@/public/data/links";
+import { logoLinks, links } from "@/data/links";
 import LogoSection from "@/components/Molecules/LogoSection";
 
 const Footer = () => {

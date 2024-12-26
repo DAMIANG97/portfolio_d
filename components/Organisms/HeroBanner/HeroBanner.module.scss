@@ -1,19 +1,22 @@
 .hero-banner {
+  position: relative;
   width: 100vw;
-  height: 70vh;
-  background-image: url("../../../public/hero/webdev.png");
+  height: 90vh;
   background-size: cover;
+  background-position: center;
 
-  &--electro-design {
-    background-image: url("../../../public/hero/electric_design.jpg");
+  &__image {
+    filter: brightness(50%);
   }
-  &--game-dev {
-    background-image: url("../../../public/hero/gamedev.png");
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 10;
   }
-  &--pixel-art {
-    background-image: url("../../../public/hero/2.png");
-  }
-
   &__greetings {
     margin: 0;
   }

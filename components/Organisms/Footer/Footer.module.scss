@@ -1,8 +1,18 @@
 .footer {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(40, 40, 40);
   width: auto;
   height: 6.25rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.prawo {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
+}
+.lewo {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem;
 }

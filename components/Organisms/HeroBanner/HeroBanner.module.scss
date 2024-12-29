@@ -4,15 +4,16 @@
   height: 90vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 
   &__image {
     filter: brightness(50%);
   }
+  &__image2 {
+  }
   &__content {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     z-index: 10;

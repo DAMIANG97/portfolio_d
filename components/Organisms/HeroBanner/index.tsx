@@ -1,6 +1,8 @@
 import HeroGame from "@/components/Atoms/HeroGame";
 import styles from "./HeroBanner.module.scss";
 import Image from "next/image";
+import Link from "@/components/Atoms/Link";
+import { links } from "@/data/links";
 
 interface HeroProps {
   activeCareer: string;
@@ -11,10 +13,17 @@ const HeroBanner: React.FC<HeroProps> = ({ activeCareer }) => {
 
   return (
     <section className={styles["hero-banner"]}>
-      {activeCareer === "Game development" ? <HeroGame className="game-window"></HeroGame> : <Image className={styles["hero-banner__image"]} src={srcImage} layout="fill" objectFit="cover" alt="Picture of the author"></Image>}
+      {activeCareer === "Game development" ? (
+        <HeroGame className="game-container__window" src="https://itch.io/embed-upload/12358594?color=333333"></HeroGame>
+      ) : (
+        <Image className={styles["hero-banner__image"]} src={srcImage} layout="fill" objectFit="cover" alt="Picture of the author"></Image>
+      )}
       <div className={styles["hero-banner__content"]}>
         <p className={styles["hero-banner__greetings"]}></p>
         <p></p>
+        <Link href={links[0].href} download={links[0].download}>
+          {links[0].children}
+        </Link>
       </div>
     </section>
   );

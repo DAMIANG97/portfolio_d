@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./HeroGame.module.scss";
+import styles from "./Game.module.scss";
 interface HeroGameProps {
   className?: string;
   src?: string;

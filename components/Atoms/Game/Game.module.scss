@@ -2,14 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(150, 150, 150);
-  width: 100%;
+  width: 33%;
   height: 90vh;
 
   &__window {
     display: flex;
     width: fit-content;
-    height: 70vh;
+    height: 90vh;
     box-shadow: 0 0 20px rgba(0, 0, 0, 1);
   }
 }

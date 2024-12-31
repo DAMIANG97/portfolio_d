@@ -1,7 +1,6 @@
 import styles from "./HeroBanner.module.scss";
 import Image from "next/image";
-import Link from "@/components/Atoms/Link";
-import { links } from "@/data/links";
+import Greetings from "@/components/Molecules/Greetings";
 
 interface HeroProps {
   activeCareer: string;
@@ -12,14 +11,8 @@ const HeroBanner: React.FC<HeroProps> = ({ activeCareer }) => {
 
   return (
     <section style={{ backgroundImage: `url(${srcImage})` }} className={styles["hero-banner"]}>
-      <div className={styles["hero-banner__content"]}>
-        <p className={styles["hero-banner__greetings"]}>siema</p>
-        <p>siema</p>
-        <Link href={links[0].href} download={links[0].download}>
-          {links[0].children}
-        </Link>
-      </div>
-      <Image className={styles["hero-banner__image2"]} alt="me" src="/hero/My_Photo.png" width={200} height={400}></Image>
+      <Greetings></Greetings>
+      <Image className={styles["hero-banner__image2"]} alt="Photo of Me" src="/hero/My_Photo.png" width={2000} height={2000}></Image>
     </section>
   );
 };

@@ -1,3 +1,9 @@
 .link {
   color: white;
+  &--hero {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: underline 3px var(--color-secondary);
+    text-underline-offset: 0.5rem;
+  }
 }

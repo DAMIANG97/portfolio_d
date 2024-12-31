@@ -4,16 +4,11 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
 
-  &__content {
-    color: white;
-    text-align: center;
-    z-index: 10;
-  }
-  &__greetings {
-    color: black;
-    margin: 0;
+  &__image2 {
+    align-self: end;
+    width: auto;
+    height: 70vh;
   }
 }

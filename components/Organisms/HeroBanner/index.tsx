@@ -3,7 +3,7 @@ import Image from "next/image";
 import Greetings from "@/components/Molecules/Greetings";
 
 interface HeroProps {
-  activeCareer: string;
+  activeCareer?: string;
 }
 
 const HeroBanner: React.FC<HeroProps> = ({ activeCareer }) => {

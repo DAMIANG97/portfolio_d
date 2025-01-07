@@ -1,11 +1,12 @@
+"use client";
+
 import React from "react";
 import styles from "./Header.module.scss";
+import { useGlobalContext } from "../../../context/GlobalContext";
 
-interface HeaderProps {
-  setActiveCareer: (career: string) => void;
-}
+const Header: React.FC = () => {
+  const { setActiveCareer } = useGlobalContext(); // Pobierz metodę do ustawiania aktywnej kariery
 
-const Header: React.FC<HeaderProps> = ({ setActiveCareer }) => {
   return (
     <header className={styles.header}>
       <nav className={styles.header__menu}>

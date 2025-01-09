@@ -5,6 +5,17 @@
   background-position: center;
   display: flex;
   justify-content: space-evenly;
+  background-image: url("/hero/weeb2.jpg");
+
+  &--game-dev {
+    background-image: url("/hero/gamedev2.jpg");
+  }
+  &--pixel-art {
+    background-image: url("/hero/2.png");
+  }
+  &--electrical-design {
+    background-image: url("/hero/electric_design.jpg");
+  }
 
   &__image2 {
     align-self: end;

@@ -5,7 +5,7 @@ import styles from "./Header.module.scss";
 import { useGlobalContext } from "../../../context/GlobalContext";
 
 const Header: React.FC = () => {
-  const { setActiveCareer } = useGlobalContext(); // Pobierz metodę do ustawiania aktywnej kariery
+  const { setActiveCareer } = useGlobalContext();
 
   return (
     <header className={styles.header}>

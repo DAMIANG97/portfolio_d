@@ -1,18 +1,24 @@
+"use client";
+
 import styles from "./HeroBanner.module.scss";
+import clsx from "clsx";
 import Image from "next/image";
 import Greetings from "@/components/Molecules/Greetings";
+import { useGlobalContext } from "../../../context/GlobalContext";
 
-interface HeroProps {
-  activeCareer?: string;
-}
+const HeroBanner: React.FC = () => {
+  const { activeCareer } = useGlobalContext();
 
-const HeroBanner: React.FC<HeroProps> = ({ activeCareer }) => {
-  const srcImage = activeCareer === "Electrical designer" ? "/hero/electric_design.jpg" : activeCareer === "Game development" ? "/hero/gamedev.jpg" : activeCareer === "Pixel Art" ? "/hero/2.png" : "/hero/weeb.png";
+  const heroClass = clsx(styles["hero-banner"], {
+    [styles["hero-banner--game-dev"]]: activeCareer === "Game development",
+    [styles["hero-banner--pixel-art"]]: activeCareer === "Pixel Art",
+    [styles["hero-banner--electrical-design"]]: activeCareer === "Electrical designer",
+  });
 
   return (
-    <section style={{ backgroundImage: `url(${srcImage})` }} className={styles["hero-banner"]}>
-      <Greetings></Greetings>
-      <Image className={styles["hero-banner__image2"]} alt="Photo of Me" src="/hero/My_Photo.png" width={2000} height={2000}></Image>
+    <section className={heroClass}>
+      <Greetings />
+      <Image className={styles["hero-banner__image2"]} alt="Photo of Me" src="/hero/My_Photo.png" width={2000} height={2000} />
     </section>
   );
 };

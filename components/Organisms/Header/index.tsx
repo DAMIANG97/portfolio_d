@@ -13,13 +13,13 @@ const Header: React.FC = () => {
         <button onClick={() => setActiveCareer("Web Development")} className={styles.header__link}>
           Web Development
         </button>
-        <button onClick={() => setActiveCareer("Game development")} className={styles.header__link}>
+        <button onClick={() => setActiveCareer("Game Development")} className={styles.header__link}>
           Game development
         </button>
         <button onClick={() => setActiveCareer("Pixel Art")} className={styles.header__link}>
           Pixel Art
         </button>
-        <button onClick={() => setActiveCareer("Electrical designer")} className={styles.header__link}>
+        <button onClick={() => setActiveCareer("Electrical Designer")} className={styles.header__link}>
           Electrical designer
         </button>
       </nav>

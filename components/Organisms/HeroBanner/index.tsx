@@ -10,9 +10,9 @@ const HeroBanner: React.FC = () => {
   const { activeCareer } = useGlobalContext();
 
   const heroClass = clsx(styles["hero-banner"], {
-    [styles["hero-banner--game-dev"]]: activeCareer === "Game development",
+    [styles["hero-banner--game-dev"]]: activeCareer === "Game Development",
     [styles["hero-banner--pixel-art"]]: activeCareer === "Pixel Art",
-    [styles["hero-banner--electrical-design"]]: activeCareer === "Electrical designer",
+    [styles["hero-banner--electrical-design"]]: activeCareer === "Electrical Designer",
   });
 
   return (

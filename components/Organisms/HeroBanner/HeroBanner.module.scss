@@ -5,16 +5,16 @@
   background-position: center;
   display: flex;
   justify-content: space-evenly;
-  background-image: url("/hero/weeb2.jpg");
+  background-image: linear-gradient(rgba(1, 6, 19, 0.103), rgba(1, 6, 19, 0.897)), url("/hero/weeb2.jpg");
 
   &--game-dev {
-    background-image: url("/hero/gamedev2.jpg");
+    background-image: linear-gradient(rgba(36, 6, 48, 0.664), rgba(51, 6, 70, 0.726)), url("/hero/gamedev2.jpg");
   }
   &--pixel-art {
     background-image: url("/hero/2.png");
   }
   &--electrical-design {
-    background-image: url("/hero/electric_design.jpg");
+    background-image: linear-gradient(rgba(4, 27, 49, 0.466), rgba(4, 27, 49, 0.795)), url("/hero/electric_design.jpg");
   }
 
   &__image2 {

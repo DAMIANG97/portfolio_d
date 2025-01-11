@@ -6,10 +6,10 @@ export const useCursorClass = (activeCareer: string) => {
       case "Web Development":
         return "cursor--web-development";
       case "Game Development":
-        return "cursor-game-development";
+        return "cursor--game-development";
       case "Pixel Art":
         return "cursor--pixel-art";
-      case "Electrical designer":
+      case "Electrical Designer":
         return "cursor--electrical-designer";
       default:
         return "cursor";

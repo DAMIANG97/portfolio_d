@@ -5,7 +5,7 @@ import clsx from "clsx";
 interface LinkProps {
   href: string;
   download?: string;
-  children?: React.ReactNode;
+  children: React.ReactNode;
   className?: string;
 }
 

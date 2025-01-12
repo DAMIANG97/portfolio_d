@@ -3,16 +3,18 @@ import styles from "./LogoLink.module.scss";
 import Image from "next/image";
 
 interface LogoLinkProps {
+  ariaLabel: string;
   href: string;
   src?: string;
-  alt?: string;
+  alt: string;
   width?: number;
   height?: number;
+  title?: string;
 }
 
-const LogoLink: React.FC<LogoLinkProps> = ({ href = "#", src = "/logo/github.svg", alt = "Github logo", width = 32, height = 32 }) => {
+const LogoLink: React.FC<LogoLinkProps> = ({ href = "#", src = "/logo/github.svg", alt = "Github logo", width = 32, height = 32, ariaLabel, title }) => {
   return (
-    <a className={styles["logo-link"]} href={href} target="_blank" rel="noopener noreferrer">
+    <a title={title} aria-label={ariaLabel} className={styles["logo-link"]} href={href} target="_blank" rel="noopener noreferrer">
       <Image src={src} alt={alt} width={width} height={height} />
     </a>
   );

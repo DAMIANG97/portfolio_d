@@ -1,10 +1,21 @@
 .link {
-  color: white;
+  color: var(--color-text);
+
+  &--footer {
+    &:hover {
+      text-decoration: underline 0.125rem var(--color-secondary);
+      text-underline-offset: 0.25rem;
+    }
+  }
   &--hero {
     margin-top: 1rem;
     font-size: 2rem;
-    text-decoration: underline 3px var(--color-secondary);
+    text-decoration: underline 0.1875rem var(--color-secondary);
     text-underline-offset: 0.5rem;
-    cursor: url("../../../public/cursor/image1.png"), auto;
+    &:hover {
+      transform-origin: left;
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
+    }
   }
 }

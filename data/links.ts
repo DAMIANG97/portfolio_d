@@ -15,11 +15,15 @@ export const logoLinks = [
     href: "https://github.com/DAMIANG97/",
     src: "/logo/github.svg",
     alt: "GitHub",
+    description: "Link for github page",
+    title: "Check my github",
   },
   {
     href: "https://linkedin.com/in/damiang97/",
     src: "/logo/linkedIn_whiteV.svg",
     alt: "LinkedIn",
+    description: "Link for linkedin profile",
+    title: "Check my linkedin",
   },
   {
     href: "https://damiang97.itch.io/",
@@ -27,5 +31,7 @@ export const logoLinks = [
     alt: "itch.io",
     width: 128,
     height: 32,
+    description: "Link for itchio page",
+    title: "Check my itchio",
   },
 ];

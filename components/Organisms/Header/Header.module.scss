@@ -12,6 +12,10 @@
 .header__link {
   font-size: 1.25rem;
   margin: 1.25rem;
-  color: white;
+  color: var(--color-text);
   text-decoration: none;
+  &:hover {
+    text-decoration: underline 0.125rem var(--color-secondary);
+    text-underline-offset: 0.5rem;
+  }
 }

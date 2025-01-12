@@ -15,7 +15,7 @@ const LinkSection: React.FC<LinkSectionProps> = ({ links }) => {
     <ul className={styles["link-list"]}>
       {links.map((link, index) => (
         <li className={styles["link-list__item"]} key={index}>
-          <Link href={link.href} download={link.download}>
+          <Link className="link--footer" href={link.href} download={link.download}>
             {link.children}
           </Link>
         </li>

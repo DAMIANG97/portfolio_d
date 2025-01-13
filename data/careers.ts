@@ -1,22 +1,22 @@
 export const careers = [
   {
-    id: 1,
-    label: "Web Development",
-    value: "Web Development",
+    id: "web-dev",
+    name: "Web Development",
+    description: "Hero Banner showcasing career paths - web development",
   },
   {
-    id: 2,
-    label: "Game Development",
-    value: "Game development",
+    id: "game-dev",
+    name: "Game Development",
+    description: "Hero Banner showcasing career paths - game development",
   },
   {
-    id: 3,
-    label: "Pixel Art",
-    value: "Pixel Art",
+    id: "pixel-art",
+    name: "Pixel Art",
+    description: "Hero Banner showcasing career paths - pixel art",
   },
   {
-    id: 4,
-    label: "Electrical Designer",
-    value: "Electrical designer",
+    id: "electrical-design",
+    name: "Electrical Designer",
+    description: "Hero Banner showcasing career paths - electrical designer",
   },
 ];

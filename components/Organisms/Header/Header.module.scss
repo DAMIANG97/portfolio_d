@@ -1,9 +1,11 @@
+@use "sass-mq/_mq";
+
 .header {
   background-color: var(--color-primary);
   width: auto;
   height: 10vh;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
 }
 .header__menu {

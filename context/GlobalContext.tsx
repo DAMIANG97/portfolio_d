@@ -10,7 +10,7 @@ interface GlobalContextType {
 const GlobalContext = createContext<GlobalContextType | undefined>(undefined);
 
 export const GlobalProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [activeCareer, setActiveCareer] = useState("Web Development");
+  const [activeCareer, setActiveCareer] = useState("web-dev");
 
   return <GlobalContext.Provider value={{ activeCareer, setActiveCareer }}>{children}</GlobalContext.Provider>;
 };

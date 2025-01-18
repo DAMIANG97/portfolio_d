@@ -1,0 +1,13 @@
+.NavButton {
+  font-size: 1.25rem;
+  margin: 1.25rem;
+  background-color: transparent;
+  border: none;
+  color: var(--color-text);
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline 0.125rem var(--color-secondary);
+    text-underline-offset: 0.5rem;
+  }
+}

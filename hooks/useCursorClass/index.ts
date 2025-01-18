@@ -3,13 +3,13 @@ import { useMemo } from "react";
 export const useCursorClass = (activeCareer: string) => {
   return useMemo(() => {
     switch (activeCareer) {
-      case "Web Development":
+      case "web-dev":
         return "cursor--web-development";
-      case "Game Development":
+      case "game-dev":
         return "cursor--game-development";
-      case "Pixel Art":
+      case "pixel-art":
         return "cursor--pixel-art";
-      case "Electrical Designer":
+      case "electrical-design":
         return "cursor--electrical-designer";
       default:
         return "cursor";

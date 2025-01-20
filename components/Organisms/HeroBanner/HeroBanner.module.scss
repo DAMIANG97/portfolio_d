@@ -1,3 +1,5 @@
+@use "sass-mq/_mq";
+
 .hero-banner {
   width: 100%;
   height: 90vh;
@@ -18,8 +20,13 @@
   }
 
   &__image2 {
-    align-self: end;
-    width: auto;
-    height: 70vh;
+    display: none;
+
+    @include mq.mq($from: 768px) {
+      display: flex;
+      align-self: end;
+      width: auto;
+      height: 70vh;
+    }
   }
 }

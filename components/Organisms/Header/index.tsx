@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Header.module.scss";
-import Logo from "@/components/Atoms/Logo";
+
 import Navigation from "@/components/Molecules/Navigation";
+import LogoLink from "@/components/Atoms/LogoLink";
 
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <Logo></Logo>
+      <LogoLink href="#" alt="LOGO" ariaLabel="A man sitting at a computer and programming. And title - Damian Grabowski" src="/logo/logo.png" height={80} width={240}></LogoLink>
       <Navigation></Navigation>
     </header>
   );

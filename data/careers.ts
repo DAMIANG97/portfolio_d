@@ -6,7 +6,7 @@ export const careers = [
   },
   {
     id: "game-dev",
-    name: "Game Development",
+    name: "Game Dev",
     description: "Hero Banner showcasing career paths - game development",
   },
   {
@@ -16,7 +16,7 @@ export const careers = [
   },
   {
     id: "electrical-design",
-    name: "Electrical Designer",
+    name: "Electrical Design",
     description: "Hero Banner showcasing career paths - electrical designer",
   },
 ];

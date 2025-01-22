@@ -1,10 +1,17 @@
+@use "sass-mq/_mq";
+
 .NavButton {
-  font-size: 1.25rem;
-  margin: 1.25rem;
+  font-size: 1rem;
+  margin: 1rem;
   background-color: transparent;
   border: none;
   color: var(--color-text);
   text-decoration: none;
+
+  @include mq.mq($from: 1024px) {
+    margin: 1.25rem;
+    font-size: 1.25rem;
+  }
   &:hover {
     cursor: pointer;
     text-decoration: underline 0.125rem var(--color-secondary);

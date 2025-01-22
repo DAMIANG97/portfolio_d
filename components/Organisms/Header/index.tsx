@@ -7,7 +7,7 @@ import LogoLink from "@/components/Atoms/LogoLink";
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <LogoLink href="#" alt="LOGO" ariaLabel="A man sitting at a computer and programming. And title - Damian Grabowski" src="/logo/logo.png" height={80} width={240}></LogoLink>
+      <LogoLink href="#" alt="LOGO" ariaLabel="A man sitting at a computer and programming. With the title - Damian Grabowski" src="/logo/logo.png" height={80} width={240}></LogoLink>
       <Navigation></Navigation>
     </header>
   );

@@ -10,6 +10,7 @@ interface LogoLinkProps {
   width?: number;
   height?: number;
   title?: string;
+  className?: string;
 }
 
 const LogoLink: React.FC<LogoLinkProps> = ({ href = "#", src = "/logo/github.svg", alt = "Github logo", width = 32, height = 32, ariaLabel, title }) => {

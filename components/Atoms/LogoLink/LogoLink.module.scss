@@ -1,2 +1,9 @@
+@use "sass-mq/_mq";
+
 .logo-link {
+  margin: 0.5rem 0;
+
+  @include mq.mq($from: 600px) {
+    margin: 0 1rem;
+  }
 }

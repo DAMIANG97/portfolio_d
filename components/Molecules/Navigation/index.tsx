@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
   return (
     <nav className={styles.navigation}>
       <button className={styles.menuToggle} onClick={() => setMenuOpen((prev) => !prev)}>
-        {isMenuOpen ? "Zamknij" : "Menu"}
+        <img src="/logo/menu.svg" alt="menu" width={64} height={64}></img>
       </button>
       <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
         {careers.map((career) => (

@@ -6,4 +6,7 @@
   @include mq.mq($from: 600px) {
     margin: 0 1rem;
   }
+  &--header {
+    align-self: center;
+  }
 }

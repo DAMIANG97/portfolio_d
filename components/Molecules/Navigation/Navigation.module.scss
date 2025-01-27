@@ -2,8 +2,15 @@
 
 .navigation {
   display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  @include mq.mq($from: 1024px) {
+    align-self: center;
+  }
 
   .menuToggle {
+    display: flex;
     background-color: transparent;
     border: none;
     @include mq.mq($from: 1024px) {
@@ -16,15 +23,16 @@
     background-color: var(--color-primary);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
-    width: 30%;
 
     @include mq.mq($from: 1024px) {
-      display: flex;
+      display: block;
       width: auto;
+      align-self: center;
     }
 
     &.open {
-      display: block;
+      display: flex;
+      flex-direction: column;
     }
   }
 }

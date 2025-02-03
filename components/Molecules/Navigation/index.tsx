@@ -19,7 +19,7 @@ const Navigation: React.FC = () => {
   };
 
   return (
-    <nav className={styles.navigation}>
+    <nav className={`${styles.navigation} ${isMenuOpen ? styles["navigation--visible"] : ""}`}>
       <button className={styles.menuToggle} onClick={() => setMenuOpen((prev) => !prev)}>
         <img src="/logo/menu.svg" alt="menu" width={64} height={64}></img>
       </button>

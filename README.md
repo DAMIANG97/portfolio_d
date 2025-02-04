@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Project with Dynamic Career Paths
 
-## Getting Started
+This is a **portfolio project** built with **React** and **Next.js**. It uses **Context API** to dynamically change career paths, allowing the style and content of the page to adapt to the user's selection.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Career Path Selection**  
+  The application includes **four distinct career paths**, each of which influences the appearance of the page. Based on the selected path, the layout, style, and content of the page are dynamically adjusted.
+- **Server-Side Rendering (SSR)**  
+  Most components are built to **render on the server**, improving page performance and SEO by delivering content faster.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Atomic Design Methodology**  
+  The project follows **Atomic Design** principles to create a modular and reusable structure:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  - **Atoms**: Basic components like buttons and links.
+  - **Molecules**: Groups of atoms, such as Navigation and LinkSection
+  - **Organisms**: Larger, more complex components like the header and heroBanner.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Reusability of Components**  
+  A strong focus has been placed on building **reusable components** to ensure consistency across the application and reduce code duplication.
 
-## Learn More
+- **SCSS & BEM Methodology**  
+  For styling, **SCSS** is used in conjunction with the **BEM methodology `Block__Element--Modifier`**. This structure makes the CSS code **clean, maintainable,** and easily expandable.
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**  
+  The layout is fully **responsive**, ensuring the website looks and works great on any device, from desktops to mobile phones.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Accessibility**  
+  The application is designed with **accessibility** in mind, ensuring it is easy to use for individuals with disabilities.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React**
+- **Next.js**
+- **Context API**
+- **SCSS**
+- **BEM `Block__Element--Modifier`**
+- **Responsive Design**
+- **Accessibility**

@@ -20,10 +20,10 @@ const Navigation: React.FC = () => {
 
   return (
     <nav className={`${styles.navigation} ${isMenuOpen ? styles["navigation--visible"] : ""}`}>
-      <button className={styles.menuToggle} onClick={() => setMenuOpen((prev) => !prev)}>
+      <button className={styles.navigation__toggle} onClick={() => setMenuOpen((prev) => !prev)}>
         <img src="/logo/menu.svg" alt="menu" width={64} height={64}></img>
       </button>
-      <div className={`${styles.menu} ${isMenuOpen ? styles.open : ""}`}>
+      <div className={`${styles.navigation__menu} ${isMenuOpen ? styles["navigation__menu--open"] : ""}`}>
         {careers.map((career) => (
           <NavButton key={career.id} id={career.id} name={career.name} onClick={changeCareer} />
         ))}

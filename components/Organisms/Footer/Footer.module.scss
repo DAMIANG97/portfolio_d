@@ -1,4 +1,5 @@
-@use "sass-mq/_mq";
+@use "/styles/config/breakpoints.scss" as *;
+
 .footer {
   background-color: var(--color-primary);
   width: auto;
@@ -6,7 +7,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @include mq.mq($from: 600px) {
+  @include mq("mobile") {
     justify-content: space-between;
   }
 }

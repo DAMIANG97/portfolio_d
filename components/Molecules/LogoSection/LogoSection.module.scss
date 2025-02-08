@@ -1,4 +1,4 @@
-@use "sass-mq/_mq";
+@use "/styles/config/breakpoints.scss" as *;
 
 .logo-list {
   padding: 0rem;
@@ -6,7 +6,7 @@
   grid-template-columns: repeat(2, auto);
   gap: 10px;
 
-  @include mq.mq($from: 600px) {
+  @include mq("mobile") {
     display: flex;
     flex-direction: row;
     align-items: center;

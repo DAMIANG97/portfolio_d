@@ -1,9 +1,8 @@
-@use "sass-mq/_mq";
-
+@use "/styles/config/breakpoints.scss" as *;
 .logo-link {
   margin: 0.5rem 0;
 
-  @include mq.mq($from: 600px) {
+  @include mq("laptop") {
     margin: 0 1rem;
   }
   &--header {

@@ -1,4 +1,4 @@
-@use "sass-mq/_mq";
+@use "/styles/config/breakpoints.scss" as *;
 .greetings {
   display: flex;
   flex-direction: column;
@@ -7,13 +7,13 @@
   align-items: center;
   align-self: center;
 
-  @include mq.mq(600px) {
+  @include mq("mobile") {
     align-items: start;
   }
   &__hello {
     font-size: 1.5rem;
 
-    @include mq.mq(600px) {
+    @include mq("mobile") {
       font-size: 1.5rem;
     }
   }
@@ -22,7 +22,7 @@
     font-weight: bold;
     font-size: 2rem;
 
-    @include mq.mq(600px) {
+    @include mq("mobile") {
       font-size: 3rem;
     }
   }
@@ -31,7 +31,7 @@
     font-weight: bold;
     color: var(--color-secondary);
     font-size: 2rem;
-    @include mq.mq(600px) {
+    @include mq("mobile") {
       font-size: 3rem;
     }
   }
@@ -40,7 +40,7 @@
     font-weight: bold;
     font-size: 2rem;
 
-    @include mq.mq(600px) {
+    @include mq("mo") {
       font-size: 3rem;
     }
   }

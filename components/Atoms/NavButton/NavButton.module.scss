@@ -1,4 +1,4 @@
-@use "sass-mq/_mq";
+@use "/styles/config/breakpoints.scss" as *;
 
 .NavButton {
   font-size: 1rem;
@@ -8,10 +8,11 @@
   color: var(--color-text);
   text-decoration: none;
 
-  @include mq.mq($from: 1024px) {
+  @include mq("laptop") {
     margin: 1.25rem;
     font-size: 1.25rem;
   }
+
   &:hover {
     cursor: pointer;
     text-decoration: underline 0.125rem var(--color-secondary);

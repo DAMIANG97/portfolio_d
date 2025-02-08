@@ -1,12 +1,11 @@
-@use "sass-mq/_mq";
-
+@use "/styles/config/breakpoints.scss" as *;
 .navigation {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
 
-  @include mq.mq($from: 1024px) {
+  @include mq("laptop") {
     align-self: center;
   }
 
@@ -22,7 +21,7 @@
     background-color: transparent;
     border: none;
 
-    @include mq.mq($from: 1024px) {
+    @include mq("laptop") {
       display: none;
     }
   }
@@ -33,7 +32,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
 
-    @include mq.mq($from: 1024px) {
+    @include mq("laptop") {
       display: block;
       width: auto;
       align-self: center;

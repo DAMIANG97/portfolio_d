@@ -1,4 +1,4 @@
-@use "sass-mq/_mq";
+@use "/styles/config/breakpoints.scss" as *;
 
 .hero-banner {
   width: 100%;
@@ -22,7 +22,7 @@
   &__image2 {
     display: none;
 
-    @include mq.mq($from: 768px) {
+    @include mq("tablet") {
       display: flex;
       align-self: end;
       width: auto;

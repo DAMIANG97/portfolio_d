@@ -6,6 +6,7 @@ import Image from "next/image";
 import Greetings from "@/components/Molecules/Greetings";
 import { useGlobalContext } from "../../../context/GlobalContext";
 import { careers } from "@/data/careers";
+import Wrapper from "@/components/Atoms/Wrapper";
 
 const HeroBanner: React.FC = () => {
   const { activeCareer } = useGlobalContext();
@@ -18,8 +19,10 @@ const HeroBanner: React.FC = () => {
 
   return (
     <section className={heroClass} aria-label={activeCareerData?.description || "Hero Banner"}>
-      <Greetings />
-      <Image className={styles["hero-banner__image2"]} alt="Photo of Me" src="/hero/My_Photo.png" width={2000} height={2000} />
+      <Wrapper className="wrapper--hero-baner">
+        <Greetings />
+        <Image className={styles["hero-banner__image2"]} alt="Photo of Me" src="/hero/My_Photo.png" width={2000} height={2000} />
+      </Wrapper>
     </section>
   );
 };

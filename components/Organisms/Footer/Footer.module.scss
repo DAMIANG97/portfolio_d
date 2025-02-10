@@ -2,17 +2,7 @@
 
 .footer {
   background-color: var(--color-primary);
-  width: auto;
-  min-height: 10vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   @include mq("mobile") {
     justify-content: space-between;
   }
-}
-.right {
-  display: flex;
-  flex-direction: row;
-  margin: 4rem;
 }

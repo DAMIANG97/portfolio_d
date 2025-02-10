@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: var(--color-primary);
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 10px;
+
+  &--footer {
+    background-color: var(--color-primary);
+    width: auto;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &--header {
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+  }
+  &--hero-baner {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+  }
+}

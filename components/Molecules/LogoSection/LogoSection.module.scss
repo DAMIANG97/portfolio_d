@@ -5,12 +5,12 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
+  margin-right: 1rem;
 
   @include mq("mobile") {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 2rem;
   }
 
   &__li:nth-child(3) {

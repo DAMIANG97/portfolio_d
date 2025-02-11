@@ -2,7 +2,4 @@
 
 .footer {
   background-color: var(--color-primary);
-  @include mq("mobile") {
-    justify-content: space-between;
-  }
 }

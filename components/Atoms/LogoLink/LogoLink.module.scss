@@ -7,5 +7,12 @@
   }
   &--header {
     align-self: center;
+    margin-left: 1rem;
+  }
+  &__image {
+    @include mq("mobile") {
+      height: 50px;
+      width: 266px;
+    }
   }
 }

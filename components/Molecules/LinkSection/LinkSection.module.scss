@@ -7,10 +7,10 @@
   justify-content: space-around;
   padding: 0rem;
   min-height: 10vh;
+  margin-left: 1rem;
 
   @include mq("mobile") {
     flex-direction: row;
-    margin-left: 2rem;
   }
 
   &__item {

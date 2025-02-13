@@ -9,16 +9,7 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <Wrapper className="wrapper--header">
-        <LogoLink
-          classNameImage="logo-link__image"
-          className="logo-link--header"
-          href="#"
-          alt="LOGO"
-          ariaLabel="A man sitting at a computer and programming. With the title - Damian Grabowski"
-          src="/logo/logo.png"
-          height={35}
-          width={180}
-        ></LogoLink>
+        <LogoLink classNameImage="logo-link__image" className="logo-link--header" href="#" alt="LOGO" ariaLabel="Orange mouse. With the title - Damian Grabowski" src="/logo/logo.png" height={35} width={180}></LogoLink>
         <Navigation></Navigation>
       </Wrapper>
     </header>

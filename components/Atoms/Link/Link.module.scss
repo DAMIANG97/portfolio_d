@@ -3,6 +3,8 @@
   text-decoration: none;
 
   &--footer {
+    font-size: 1.125rem;
+    font-weight: bold;
     &:hover {
       text-decoration: underline 0.125rem var(--color-secondary);
       text-underline-offset: 0.25rem;

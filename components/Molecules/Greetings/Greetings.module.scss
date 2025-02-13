@@ -13,9 +13,10 @@
   }
   &__hello {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 
     @include mq("mobile") {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
   &__my-name {
@@ -24,7 +25,10 @@
     font-size: 2rem;
 
     @include mq("mobile") {
-      font-size: 3rem;
+      font-size: 4rem;
+    }
+    @include mq("laptop") {
+      font-size: 5.625rem;
     }
   }
   &__name {
@@ -32,8 +36,12 @@
     font-weight: bold;
     color: var(--color-secondary);
     font-size: 2rem;
+
     @include mq("mobile") {
-      font-size: 3rem;
+      font-size: 4rem;
+    }
+    @include mq("laptop") {
+      font-size: 5.625rem;
     }
   }
   &__developer {

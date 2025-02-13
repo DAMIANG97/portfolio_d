@@ -1,6 +1,8 @@
 @use "/styles/config/breakpoints.scss" as *;
 .logo-link {
+  display: flex;
   margin: 0.5rem 0;
+  align-items: center;
 
   @include mq("laptop") {
     margin: 0 1rem;

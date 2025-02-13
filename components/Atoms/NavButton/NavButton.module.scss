@@ -8,9 +8,10 @@
   color: var(--color-text);
   text-decoration: none;
   font-family: "poppins";
+  font-weight: bold;
   @include mq("laptop") {
-    margin: 1.25rem;
-    font-size: 1.25rem;
+    margin: 1.125rem;
+    font-size: 1.125rem;
   }
 
   &:hover {

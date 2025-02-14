@@ -6,6 +6,7 @@
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   margin-right: 1rem;
+  list-style: none;
 
   @include mq("mobile") {
     display: flex;

@@ -8,6 +8,7 @@
   padding: 0rem;
   min-height: 10vh;
   margin-left: 1rem;
+  list-style: none;
 
   @include mq("mobile") {
     flex-direction: row;

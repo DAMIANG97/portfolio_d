@@ -1,11 +1,11 @@
 .main {
   display: flex;
   background-color: var(--color-background);
-  &__exp-section {
-    margin: 2rem 1rem;
-    background-color: var(--color-sections);
-    width: 45%;
+  &__professional-summary {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
     height: auto;
-    border-radius: 10px;
   }
 }

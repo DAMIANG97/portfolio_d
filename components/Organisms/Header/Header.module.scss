@@ -1,7 +1,6 @@
 .header {
   background-color: var(--color-primary);
-  filter: drop-shadow(0 4px 4px rgba(255, 255, 255, 0.4));
-  clip-path: inset(0px -10px -10px -10px);
+  filter: drop-shadow(0 8px -4px rgba(255, 255, 255, 0.4));
 }
 .header__menu {
   margin-right: 10vh;

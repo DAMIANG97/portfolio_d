@@ -1,6 +1,6 @@
 @use "/styles/config/breakpoints.scss" as *;
 .greetings {
-  margin: 16px;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   color: var(--color-text);
@@ -24,7 +24,7 @@
   &__my-name {
     margin: 0px;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: var(--font-size-xxxl);
 
     @include mq("mobile") {
       font-size: 4rem;

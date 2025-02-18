@@ -1,11 +1,21 @@
+@use "/styles/config/breakpoints.scss" as *;
+
 .main {
   display: flex;
   background-color: var(--color-background);
   &__professional-summary {
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    width: 100%;
-    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include mq("tablet") {
+      flex-direction: row;
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      width: 100%;
+      height: auto;
+    }
   }
 }

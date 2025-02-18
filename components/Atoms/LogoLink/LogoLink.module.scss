@@ -12,8 +12,8 @@
   }
   &__image {
     @include mq("mobile") {
-      height: 50px;
-      width: 266px;
+      height: 3.125rem;
+      width: 16.625rem;
     }
   }
 }

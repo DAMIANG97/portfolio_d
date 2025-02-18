@@ -1,9 +1,9 @@
 @use "/styles/config/breakpoints.scss" as *;
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 87.5rem;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
   &--footer {
     width: auto;

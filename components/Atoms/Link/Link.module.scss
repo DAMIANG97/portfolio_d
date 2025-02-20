@@ -1,3 +1,5 @@
+@use "/styles/config/breakpoints.scss" as *;
+
 .link {
   color: var(--color-text);
   text-decoration: none;
@@ -12,9 +14,12 @@
   }
   &--hero {
     margin-top: 1rem;
-    font-size: var(--font-size-xxxl);
+    font-size: var(--font-size-xxl);
     text-decoration: underline 0.1875rem var(--color-secondary);
     text-underline-offset: 0.5rem;
+    @include mq("mobile") {
+      font-size: var(--font-size-xxxl);
+    }
     &:hover {
       transform-origin: left;
       transform: scale(1.1);

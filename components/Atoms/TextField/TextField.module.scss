@@ -9,13 +9,34 @@
   height: auto;
   border-radius: 0.625rem;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
-  font-size: var(--font-size-xxs);
+
   @include mq("mobile") {
-    font-size: var(--font-size-xs);
     padding: 2rem;
   }
   @include mq("tablet") {
-    font-size: var(--font-size-s);
     width: 45%;
+  }
+
+  &__title {
+    margin: 0rem;
+    text-align: center;
+    font-size: var(--font-size-l);
+    @include mq("mobile") {
+      font-size: var(--font-size-xl);
+    }
+    @include mq("tablet") {
+      font-size: var(--font-size-xxl);
+    }
+  }
+
+  &__description {
+    text-align: justify;
+    font-size: var(--font-size-xxs);
+    @include mq("mobile") {
+      font-size: var(--font-size-xs);
+    }
+    @include mq("tablet") {
+      font-size: var(--font-size-s);
+    }
   }
 }

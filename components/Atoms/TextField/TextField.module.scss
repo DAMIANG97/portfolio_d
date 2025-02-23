@@ -30,7 +30,8 @@
   }
 
   &__description {
-    text-align: justify;
+    white-space: pre-line;
+    text-align: center;
     font-size: var(--font-size-xxs);
     @include mq("mobile") {
       font-size: var(--font-size-xs);

@@ -4,11 +4,22 @@ export const careersSummary = [
     title: "Web Development",
     education: {
       title: "Education",
-      description: "Frontend developer with angulat on WSB Merito in Wrocław",
+      description: `Wrocław University of Science and Technology 
+      Electrical engineering BSc studies
+
+      Wrocław University of Science and Technology 
+      Electrical engineering MSc studies
+
+      WSB Merito University in Wrocław
+      Frontend Developer with Angular PgD studies`,
     },
     experience: {
       title: "Experience",
-      description: "Praca jako frontend/backend developer, tworzenie stron, aplikacji i systemów webowych.",
+      description: `Junior Frontend Developer, Columbus Poland Sp. z o.o.
+      
+      Asistant Designer, Janura Pirie Sp. z.o.o
+
+      Asistant Designer, BPI Sp. z.o.o`,
     },
   },
   {
@@ -16,11 +27,28 @@ export const careersSummary = [
     title: "Game Development",
     education: {
       title: "Education",
-      description: "Kursy i studia obejmujące Unity, Unreal Engine, C#, programowanie AI i grafikę 3D.",
+      description: `Wrocław University of Science and Technology 
+      Electrical engineering BSc studies
+
+      Wrocław University of Science and Technology 
+      Electrical engineering MSc studies
+
+      WSB Merito University in Wrocław
+      Frontend Developer with Angular PgD studies`,
     },
     experience: {
       title: "Experience",
-      description: "Praca jako game developer, tworzenie gier indie i AAA, optymalizacja i projektowanie poziomów.",
+      description: `TK Jam 2023
+
+      Happy New Year 2022-2023 Jam
+
+      TK & Sensei Gam Jam 2022
+
+      Boat in the Jam 2022
+
+      Kiciusie Game Jam 2022
+
+      Junior Frontend Developer, Columbus Poland Sp. z o.o.`,
     },
   },
   {
@@ -28,11 +56,23 @@ export const careersSummary = [
     title: "Pixel Art",
     education: {
       title: "Education",
-      description: "Podstawy sztuki pikselowej, animacji, oprogramowanie (Aseprite, Photoshop) i teoria kolorów.",
+      description: `Wrocław University of Science and Technology 
+      Electrical engineering BSc studies
+
+      Wrocław University of Science and Technology 
+      Electrical engineering MSc studies
+
+      WSB Merito University in Wrocław
+      Frontend Developer with Angular PgD studies`,
     },
     experience: {
       title: "Experience",
-      description: "Tworzenie grafiki dla gier 2D, sprite'ów, animacji postaci, stylizacja retro.",
+      description: `Pixel art christmas twitch badges/sub pack 18x18
+      
+      Pixel art haloween twitch discord emotes/roles pack
+
+      Animal stickers pack
+      `,
     },
   },
   {
@@ -40,11 +80,22 @@ export const careersSummary = [
     title: "Electrical Design",
     education: {
       title: "Education",
-      description: "Studia inżynierskie, znajomość CAD (AutoCAD, EPLAN), teoria obwodów i systemów elektrycznych.",
+      description: `Wrocław University of Science and Technology 
+      Electrical engineering BSc studies
+
+      Wrocław University of Science and Technology 
+      Electrical engineering MSc studies
+
+      WSB Merito University in Wrocław
+      Frontend Developer with Angular PgD studies`,
     },
     experience: {
       title: "Experience",
-      description: "Projektowanie instalacji, schematów elektrycznych, automatyzacja przemysłowa i IoT.",
+      description: `Asistant Designer, Janura Pirie Sp. z.o.o
+
+      Asistant Designer, BPI Sp. z.o.o
+
+      Junior Frontend Developer, Columbus Poland Sp. z o.o.`,
     },
   },
 ];

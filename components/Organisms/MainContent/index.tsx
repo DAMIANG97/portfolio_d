@@ -5,6 +5,7 @@ import styles from "./MainContent.module.scss";
 import TextField from "@/components/Atoms/TextField";
 import { useGlobalContext } from "../../../context/GlobalContext";
 import { careersSummary } from "@/data/careersSummary";
+import TimeLine from "@/components/Molecules/Timeline";
 
 const MainContent: React.FC = () => {
   const { activeCareer } = useGlobalContext();
@@ -22,6 +23,7 @@ const MainContent: React.FC = () => {
             </>
           )}
         </section>
+        <TimeLine></TimeLine>
       </Wrapper>
     </main>
   );
